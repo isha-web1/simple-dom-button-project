@@ -42,3 +42,7 @@ const thirdEvent = document.getElementById('third').addEventListener('click', fu
     document.getElementById('heading-2').innerText = 'this is event listener tex-3'
 })
 
+const nextPageButton = document.getElementById('submit').addEventListener('click', function(){
+    window.location.href = 'condition.html'
+})
+
